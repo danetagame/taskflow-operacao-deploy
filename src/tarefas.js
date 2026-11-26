@@ -22,5 +22,5 @@ export function concluirTarefa(lista, id) {
 export function calcularProgresso(lista) {
   if (lista.length === 0) return 0;
   const concluidas = lista.filter(t => t.concluida).length;
-  return Math.round((concluidas / lista.length) * 100);
+  return Math.ceil((concluidas / lista.length) * 100);
 }
