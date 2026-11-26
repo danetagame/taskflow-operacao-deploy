@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Gestor de Tarefas</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 480px; margin: 40px auto; }
+    li.feita { text-decoration: line-through; color: #777; }
+    #erro { color: #b00020; }
+  </style>
+</head>
+<body>
+  <h1>Gestor de Tarefas</h1>
+  <form id="form">
+    <input id="titulo" placeholder="Nova tarefa">
+    <button type="submit">Adicionar</button>
+  </form>
+  <p id="erro"></p>
+  <p id="progresso">Progresso: 0%</p>
+  <ul id="lista"></ul>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

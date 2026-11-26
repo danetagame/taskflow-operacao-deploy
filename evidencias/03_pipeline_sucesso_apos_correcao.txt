@@ -1,0 +1,47 @@
+=== PIPELINE Gestor de Tarefas ===
+Data: 25/11/2026 21:06:26
+Branch: fix/arredondamento-progresso | Commit: 5835c31 - Corrige cálculo do progresso: volta para Math.round (teste falhava com 34% em vez de 33%)
+
+[1/3] Testes automatizados
+TAP version 13
+# Subtest: adiciona uma tarefa com id sequencial e não concluída
+ok 1 - adiciona uma tarefa com id sequencial e não concluída
+  ---
+  duration_ms: 0.774891
+  type: 'test'
+  ...
+# Subtest: não aceita tarefa com título vazio
+ok 2 - não aceita tarefa com título vazio
+  ---
+  duration_ms: 0.339722
+  type: 'test'
+  ...
+# Subtest: conclui somente a tarefa escolhida
+ok 3 - conclui somente a tarefa escolhida
+  ---
+  duration_ms: 0.147684
+  type: 'test'
+  ...
+# Subtest: calcula o progresso em porcentagem
+ok 4 - calcula o progresso em porcentagem
+  ---
+  duration_ms: 0.160575
+  type: 'test'
+  ...
+1..4
+# tests 4
+# suites 0
+# pass 4
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 57.956438
+
+[2/3] Build
+Build concluído: dist/ gerada.
+
+[3/3] Deploy
+Aplicação publicada na pasta deploy/ (versão 5835c31).
+
+RESULTADO: SUCESSO

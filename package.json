@@ -1,0 +1,10 @@
+{
+  "name": "gestor-tarefas",
+  "version": "1.0.0",
+  "description": "Gestor de Tarefas - Operação Deploy",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/tarefas.test.js",
+    "build": "node scripts/build.js"
+  }
+}

@@ -1,0 +1,38 @@
+
+> gestor-tarefas@1.0.0 test
+> node --test tests/tarefas.test.js
+
+TAP version 13
+# Subtest: adiciona uma tarefa com id sequencial e não concluída
+ok 1 - adiciona uma tarefa com id sequencial e não concluída
+  ---
+  duration_ms: 0.877601
+  type: 'test'
+  ...
+# Subtest: não aceita tarefa com título vazio
+ok 2 - não aceita tarefa com título vazio
+  ---
+  duration_ms: 0.404988
+  type: 'test'
+  ...
+# Subtest: conclui somente a tarefa escolhida
+ok 3 - conclui somente a tarefa escolhida
+  ---
+  duration_ms: 0.149435
+  type: 'test'
+  ...
+# Subtest: calcula o progresso em porcentagem
+ok 4 - calcula o progresso em porcentagem
+  ---
+  duration_ms: 0.177771
+  type: 'test'
+  ...
+1..4
+# tests 4
+# suites 0
+# pass 4
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 62.492754

@@ -1,0 +1,14 @@
+* 89ab4e0 25/11 21:06 Daniel Yuiti Tagame - Adiciona evidências do pipeline e dos testes
+*   04995b3 25/11 21:06 Daniel Yuiti Tagame - Merge da branch fix/arredondamento-progresso na main
+|\  
+| * 5835c31 25/11 21:06 Daniel Yuiti Tagame - Corrige cálculo do progresso: volta para Math.round (teste falhava com 34% em vez de 33%)
+| * a7f4149 25/11 21:06 Daniel Yuiti Tagame - Altera arredondamento do progresso (Math.ceil)
+|/  
+* 3095833 25/11 21:06 Daniel Yuiti Tagame - Corrige caminho dos testes no script npm test
+*   99fa101 25/11 21:06 Daniel Yuiti Tagame - Merge da branch feature/progresso na main
+|\  
+| * 2ff9cea 25/11 21:06 Daniel Yuiti Tagame - Adiciona cálculo de progresso da lista (feature/progresso)
+|/  
+* de18d50 25/11 21:06 Daniel Yuiti Tagame - Adiciona pipeline de CI/CD (GitHub Actions) e script de pipeline local
+* 0f93cb8 25/11 21:05 Daniel Yuiti Tagame - Adiciona funcionalidades de adicionar e concluir tarefa com testes
+* b1b40d7 25/11 21:05 Daniel Yuiti Tagame - Estrutura inicial do projeto (README, package.json)
